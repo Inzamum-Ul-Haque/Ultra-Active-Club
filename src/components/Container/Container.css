@@ -1,0 +1,15 @@
+.app-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.excercise-container h2 {
+  font-size: 35px;
+  color: #630edb;
+  font-family: "Bebas Neue", cursive;
+}
+
+.card-container h4 {
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+}
