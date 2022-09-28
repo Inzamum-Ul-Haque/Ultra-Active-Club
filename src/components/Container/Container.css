@@ -1,6 +1,6 @@
 .app-container {
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 4fr 2fr;
 }
 
 .header h2 {
@@ -12,6 +12,7 @@
 .excercise-container h4 {
   font-size: 20px;
   font-family: "Bebas Neue", cursive;
+  margin-bottom: 0;
 }
 
 .card-container {
