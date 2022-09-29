@@ -27,7 +27,7 @@
 
 .personal-info {
   border-radius: 20px;
-  background-color: azure;
+  background-color: #f3eef6;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -58,7 +58,7 @@
 
 .break-timer {
   border-radius: 15px;
-  background-color: azure;
+  background-color: #f3eef6;
   display: flex;
   justify-content: space-between;
   padding: 15px;
@@ -84,7 +84,7 @@
 .excercise-time-container,
 .break-time-container {
   border-radius: 20px;
-  background-color: azure;
+  background-color: #f3eef6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,4 +119,11 @@
   width: 100%;
   background-color: #630ecb;
   cursor: pointer;
+}
+
+.complete-btn:hover {
+  border: 1px solid #630ecb;
+  background-color: white;
+  color: #630ecb;
+  transition: 0.5s;
 }

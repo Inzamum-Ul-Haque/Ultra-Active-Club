@@ -35,3 +35,10 @@ h3 {
   background-color: #630ecb;
   cursor: pointer;
 }
+
+.card button:hover {
+  border: 1px solid #630ecb;
+  background-color: white;
+  color: #630ecb;
+  transition: 0.5s;
+}
