@@ -25,7 +25,9 @@ const Container = () => {
           </div>
         </div>
       </div>
-      <Details />
+      <div className="details-container">
+        <Details />
+      </div>
     </div>
   );
 };

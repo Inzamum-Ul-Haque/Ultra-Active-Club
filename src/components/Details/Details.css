@@ -1,0 +1,93 @@
+.profile {
+  display: flex;
+}
+
+.profile img {
+  height: 55px;
+  width: 55px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+.profile h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.profile p {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: gray;
+}
+
+.personal-info {
+  border-radius: 20px;
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.personal-info .weight,
+.height,
+.age {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.personal-info div :last-child {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.personal-info p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.personal-info .metric {
+  color: grey;
+}
+
+.break-timer {
+  border-radius: 15px;
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.break-timer div {
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.break-timer div:hover {
+  background-color: #630edb;
+  color: white;
+}
+
+.break-timer p {
+  padding: 8px;
+  margin: 0;
+}
+
+.excercise-time,
+.break-time {
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.excercise-time p,
+.break-time p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

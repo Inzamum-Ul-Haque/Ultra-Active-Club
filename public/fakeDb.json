@@ -5,7 +5,7 @@
         "heading": "Activity Specials",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna.",
         "age": "25-30",
-        "time": "30"
+        "time": 30
     },
     {
         "id": "002",
@@ -13,7 +13,7 @@
         "heading": "Keep Fit",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna.",
         "age": "25-30",
-        "time": "40"
+        "time": 40
     },
     {
         "id": "003",
@@ -21,7 +21,7 @@
         "heading": "Med Work-outs",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna.",
         "age": "15-25",
-        "time": "50"
+        "time": 50
     },
     {
         "id": "004",
@@ -29,7 +29,7 @@
         "heading": "Stay Calm",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna.",
         "age": "30-35",
-        "time": "25"
+        "time": 25
     },
     {
         "id": "005",
@@ -37,7 +37,7 @@
         "heading": "Cool and Fit yourself",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna.",
         "age": "20-30",
-        "time": "50"
+        "time": 50
     },
     {
         "id": "006",
@@ -45,7 +45,7 @@
         "heading": "Special Fitness",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna.",
         "age": "35-40",
-        "time": "50"
+        "time": 50
     },
     {
         "id": "007",
@@ -53,7 +53,7 @@
         "heading": "Fitness in bits",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna.",
         "age": "25-35",
-        "time": "35"
+        "time": 35
     },
     {
         "id": "008",
@@ -61,6 +61,6 @@
         "heading": "Endure and Stay Fit",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna.",
         "age": "15-35",
-        "time": "40"
+        "time": 40
     }
 ]
