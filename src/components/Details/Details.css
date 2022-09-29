@@ -77,17 +77,42 @@
   margin: 0;
 }
 
-.excercise-time,
-.break-time {
+.excercise-time-container,
+.break-time-container {
+  border-radius: 20px;
   background-color: azure;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 15px;
   padding: 15px;
 }
 
 .excercise-time p,
 .break-time p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.e-time,
+.b-time {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.e-time-val,
+.b-time-val {
+  color: gray;
+}
+
+.complete-btn {
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 22px;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #630ecb;
+  cursor: pointer;
 }

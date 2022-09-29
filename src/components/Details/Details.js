@@ -55,14 +55,15 @@ const Details = () => {
       </section>
       <section className="excercise-time-section">
         <h3>Excercise Details</h3>
-        <div className="excercise-time">
-          <p>Excercise time</p>
-          <p>0 seconds</p>
+        <div className="excercise-time-container">
+          <p className="e-time">Excercise time</p>
+          <p className="e-time-val">0 seconds</p>
         </div>
-        <div className="break-time">
-          <p>Break time</p>
-          <p>0 seconds</p>
+        <div className="break-time-container">
+          <p className="b-time">Break time</p>
+          <p className="b-time-val">0 seconds</p>
         </div>
+        <button className="complete-btn">Activity Completed</button>
       </section>
     </div>
   );
