@@ -1,0 +1,23 @@
+.qa * {
+  font-family: "Rubik", sans-serif;
+}
+
+.qa {
+  padding: 40px;
+}
+
+.qa h2 {
+  font-size: 35px;
+  color: #630edb;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 0;
+}
+
+.qa h3 {
+  font-size: 22px;
+  color: #630ecb;
+}
+
+.qa p {
+  text-align: left;
+}

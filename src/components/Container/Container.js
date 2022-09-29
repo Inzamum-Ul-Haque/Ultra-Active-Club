@@ -4,6 +4,7 @@ import Details from "../Details/Details";
 import "./Container.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
+import QuesAns from "../QuesAns/QuesAns";
 
 const Container = () => {
   const [cards, setCards] = useState([]);
@@ -38,6 +39,9 @@ const Container = () => {
               />
             ))}
           </div>
+        </div>
+        <div className="qa-container">
+          <QuesAns />
         </div>
       </div>
       <div className="details-container">
