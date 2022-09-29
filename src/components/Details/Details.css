@@ -1,9 +1,13 @@
+.details * {
+  font-family: "Rubik", sans-serif;
+}
+
 .profile {
   display: flex;
 }
 
 .profile img {
-  height: 55px;
+  height: 50px;
   width: 55px;
   margin-right: 10px;
   border-radius: 7px;
@@ -96,7 +100,7 @@
 
 .e-time,
 .b-time {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 

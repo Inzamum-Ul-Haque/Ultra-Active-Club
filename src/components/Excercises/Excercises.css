@@ -1,3 +1,7 @@
+.card * {
+  font-family: "Rubik", sans-serif;
+}
+
 .card {
   padding: 15px 20px 15px 20px;
   background-color: white;

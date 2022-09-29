@@ -6,7 +6,7 @@ import "./Details.css";
 
 const Details = () => {
   return (
-    <div>
+    <div className="details">
       <section className="profile">
         <img src={me} alt="" />
         <div>
