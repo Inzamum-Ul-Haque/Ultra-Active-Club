@@ -21,10 +21,6 @@ const Container = () => {
     setExcerciseTime((current) => current + clickedCard.time);
   };
 
-  // useEffect(() => {
-  //   console.log(excerciseTime);
-  // }, [excerciseTime]);
-
   return (
     <div className="app-container">
       <div className="header">

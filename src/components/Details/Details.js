@@ -1,10 +1,24 @@
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import me from "../../images/me.jpg";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Details.css";
+import { addToLocalDb, retrieveFromLocalDb } from "../../utilities/localDb";
 
 const Details = ({ excerciseTime }) => {
+  const [breakTime, setBreakTime] = useState(0);
+
+  const handleBreakTime = (event) => {
+    const breakTime = event.target.innerText.slice(0, 2);
+    setBreakTime(parseInt(breakTime));
+    addToLocalDb(parseInt(breakTime));
+  };
+
+  useEffect(() => {
+    const time = retrieveFromLocalDb();
+    setBreakTime(time.breakTime);
+  }, [breakTime]);
+
   return (
     <div className="details">
       <section className="profile">
@@ -39,16 +53,16 @@ const Details = ({ excerciseTime }) => {
       <section className="break-section">
         <h3>Add A Break</h3>
         <div className="break-timer">
-          <div>
+          <div onClick={(e) => handleBreakTime(e)}>
             <p>10s</p>
           </div>
-          <div>
+          <div onClick={(e) => handleBreakTime(e)}>
             <p>20s</p>
           </div>
-          <div>
+          <div onClick={(e) => handleBreakTime(e)}>
             <p>30s</p>
           </div>
-          <div>
+          <div onClick={(e) => handleBreakTime(e)}>
             <p>40s</p>
           </div>
         </div>
@@ -63,7 +77,7 @@ const Details = ({ excerciseTime }) => {
         </div>
         <div className="break-time-container">
           <p className="b-time">Break time</p>
-          <p className="b-time-val">0 seconds</p>
+          <p className="b-time-val">{breakTime ? breakTime : "0"} seconds</p>
         </div>
         <button className="complete-btn">Activity Completed</button>
       </section>
