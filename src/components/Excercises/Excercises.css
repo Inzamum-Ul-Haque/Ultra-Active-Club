@@ -42,3 +42,9 @@ h3 {
   color: #630ecb;
   transition: 0.5s;
 }
+
+@media only screen and (max-width: 576px) {
+  .card img {
+    width: 280px;
+  }
+}

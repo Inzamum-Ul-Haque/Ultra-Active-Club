@@ -7,6 +7,7 @@ import { addToLocalDb, retrieveFromLocalDb } from "../../utilities/localDb";
 
 const Details = ({ excerciseTime }) => {
   const [breakTime, setBreakTime] = useState(0);
+  const [display, setDisplay] = useState("none");
 
   const handleBreakTime = (event) => {
     const breakTime = event.target.innerText.slice(0, 2);
@@ -19,8 +20,33 @@ const Details = ({ excerciseTime }) => {
     setBreakTime(time.breakTime);
   }, [breakTime]);
 
+  const toast = {
+    display: display,
+    backgroundColor: "white",
+    color: "#630edb",
+    position: "absolute",
+    textAlign: "center",
+    bottom: "-15%",
+    right: "13%",
+    zIndex: "5",
+    padding: "5px",
+    fontSize: "22px",
+    borderRadius: "10px",
+    border: "2px solid #630edb",
+  };
+
+  const showToast = () => {
+    setDisplay("block");
+    setTimeout(() => {
+      setDisplay("none");
+    }, 2000);
+  };
+
   return (
     <div className="details">
+      <div style={toast}>
+        <h3>Activity Completed!!</h3>
+      </div>
       <section className="profile">
         <img src={me} alt="" />
         <div>
@@ -79,7 +105,9 @@ const Details = ({ excerciseTime }) => {
           <p className="b-time">Break time</p>
           <p className="b-time-val">{breakTime ? breakTime : "0"} seconds</p>
         </div>
-        <button className="complete-btn">Activity Completed</button>
+        <button onClick={showToast} className="complete-btn">
+          Activity Completed
+        </button>
       </section>
     </div>
   );

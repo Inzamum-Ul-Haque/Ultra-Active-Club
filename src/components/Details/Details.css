@@ -2,6 +2,11 @@
   font-family: "Rubik", sans-serif;
 }
 
+.details {
+  position: sticky;
+  top: 0;
+}
+
 .profile {
   display: flex;
 }

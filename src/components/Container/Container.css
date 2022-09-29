@@ -26,3 +26,13 @@
   background-color: white;
   padding: 20px;
 }
+
+@media only screen and (max-width: 576px) {
+  .app-container {
+    display: block;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
