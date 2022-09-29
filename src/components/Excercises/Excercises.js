@@ -1,7 +1,7 @@
 import React from "react";
 import "./Excercises.css";
 
-const Excercises = ({ card }) => {
+const Excercises = ({ card, handleAddToList }) => {
   const { image, heading, desc, age, time } = card;
   return (
     <div className="card">
@@ -14,7 +14,7 @@ const Excercises = ({ card }) => {
       <p>
         Time Required: <strong>{time}</strong>s
       </p>
-      <button>Add to list</button>
+      <button onClick={() => handleAddToList(card.id)}>Add to list</button>
     </div>
   );
 };

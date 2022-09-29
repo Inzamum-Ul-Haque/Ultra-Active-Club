@@ -4,7 +4,7 @@ import me from "../../images/me.jpg";
 import React from "react";
 import "./Details.css";
 
-const Details = () => {
+const Details = ({ excerciseTime }) => {
   return (
     <div className="details">
       <section className="profile">
@@ -57,7 +57,9 @@ const Details = () => {
         <h3>Excercise Details</h3>
         <div className="excercise-time-container">
           <p className="e-time">Excercise time</p>
-          <p className="e-time-val">0 seconds</p>
+          <p className="e-time-val">
+            {excerciseTime ? excerciseTime : "0"} seconds
+          </p>
         </div>
         <div className="break-time-container">
           <p className="b-time">Break time</p>
